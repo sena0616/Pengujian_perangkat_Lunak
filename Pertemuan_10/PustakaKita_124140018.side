@@ -1,0 +1,277 @@
+{
+  "id": "194a9991-20bb-46d4-af85-ec55ea2403b3",
+  "version": "2.0",
+  "name": "PustakaKita_124140018",
+  "url": "http://localhost:8000",
+  "tests": [{
+    "id": "5470057d-021a-4c70-9ab6-ec3c7154bc41",
+    "name": "peminjaman_berhasil",
+    "commands": [{
+      "id": "f2a7e580-9c10-43a0-a10b-4a97cfd095d9",
+      "comment": "",
+      "command": "open",
+      "target": "/pustaka.html?nim=124140018",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e78ce21-be3f-46c3-b5ab-d0aebe4219e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "789x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da218d00-448e-41d4-8fde-5eb94bb27661",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce8ee8c-b5f6-4ac7-b2ec-07b396a20713",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bb0c424-63ec-43f4-8da1-5b579265cfa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Analisis Data dengan Python"
+    }, {
+      "id": "6521ae81-0fdb-4e92-899e-04d75e4179cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-btn",
+      "targets": [
+        ["id=cari-btn", "id"],
+        ["css=#cari-btn", "css:finder"],
+        ["xpath=//button[@id='cari-btn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1feb2c5-c3f8-42a5-b0d4-0d5e72e5dec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pinjam-btn",
+      "targets": [
+        ["css=.pinjam-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//tbody[@id='daftar-buku']/tr/td[3]/button", "xpath:idRelative"],
+        ["xpath=//td[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pilih')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcae4d83-6dc4-4c2f-89ef-931970182dab",
+      "comment": "",
+      "command": "click",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ea7fc98-ec34-447b-b88d-3ee587e76008",
+      "comment": "",
+      "command": "click",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92cb5200-7a42-4d16-af80-06d2467e2927",
+      "comment": "",
+      "command": "type",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "A1004"
+    }, {
+      "id": "76e57f82-1f98-4757-a969-73b9c1548f5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=proses-btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a6136e7-6524-413f-a218-12f818f1fb8d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=kode-konfirmasi",
+      "targets": [],
+      "value": "PK-926240"
+    }]
+  }, {
+    "id": "8bfdf5d4-619b-4a0d-b381-316d5bbac541",
+    "name": "anggota_tidak_terdaftar",
+    "commands": [{
+      "id": "a7eab901-48b2-4779-966d-c8045f1dd80c",
+      "comment": "",
+      "command": "open",
+      "target": "/pustaka.html?nim=124140018",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c57305d1-3534-4286-9c0e-0a316f5e67e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "789x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b03d87e4-7c30-4f95-9672-52870da17a14",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c9c68c6-39aa-4548-81ea-9d2456043346",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "441ecf6a-182d-43ed-94d4-73d6f5c56872",
+      "comment": "",
+      "command": "type",
+      "target": "id=cari-input",
+      "targets": [
+        ["id=cari-input", "id"],
+        ["css=#cari-input", "css:finder"],
+        ["xpath=//input[@id='cari-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Analisis Data dengan Python"
+    }, {
+      "id": "2a6a668e-b6d0-44b9-9343-f90d569b575b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cari-btn",
+      "targets": [
+        ["id=cari-btn", "id"],
+        ["css=#cari-btn", "css:finder"],
+        ["xpath=//button[@id='cari-btn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbee38e0-c6dd-43f2-834f-091d47e10af6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pinjam-btn",
+      "targets": [
+        ["css=.pinjam-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//tbody[@id='daftar-buku']/tr/td[3]/button", "xpath:idRelative"],
+        ["xpath=//td[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pilih')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d5c2e6b-f0cf-4bbe-9162-f364793eda79",
+      "comment": "",
+      "command": "click",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c3d536c-3266-4a12-99d6-b510dcb84e2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3747163d-b157-40ba-b225-f13eae10054e",
+      "comment": "",
+      "command": "type",
+      "target": "id=anggota-input",
+      "targets": [
+        ["id=anggota-input", "id"],
+        ["css=#anggota-input", "css:finder"],
+        ["xpath=//input[@id='anggota-input']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "A9999"
+    }, {
+      "id": "02dd436e-3abf-426f-a872-449cd7db92be",
+      "comment": "",
+      "command": "click",
+      "target": "id=proses-btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9a02fa7-9b7a-4b17-906f-6a1b9660d9af",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=status-pinjam",
+      "targets": [],
+      "value": "DITOLAK: anggota tidak terdaftar"
+    }]
+  }],
+  "suites": [{
+    "id": "e578ed6c-7eb2-425e-9643-e4a1d0480d81",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5470057d-021a-4c70-9ab6-ec3c7154bc41"]
+  }],
+  "urls": ["http://localhost:8000/"],
+  "plugins": []
+}
